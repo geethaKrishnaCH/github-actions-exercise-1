@@ -1,0 +1,8 @@
+name: workflow-two
+on: workflow_dispatch
+jobs:
+  pre-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo Hello
